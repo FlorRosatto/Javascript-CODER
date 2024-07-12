@@ -1,0 +1,58 @@
+.headerContainer {
+    border-radius: 0px;
+    background: #000000;
+    box-shadow:  5px 5px 10px #bababa,
+                -5px -5px 10px #ffffff;
+
+}body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.welcome-container {
+    padding-top: 10px;
+    margin-top: 1000px;
+    border-radius: 20px;
+    background: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+select, button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ef0c0c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#greeting-message {
+    margin-top: 80px;
+    font-size: 18px;
+    color: #333333;
+    z-index: 1000;
+}
+
